@@ -1,0 +1,49 @@
+@media(max-width:600px){
+    /* phone */
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: "This is Mobile compatible";
+    }
+}
+@media(min-width:600px){
+    /* portrain table and bog phones */
+body{
+    background-color: aquamarine;
+}
+div::after{
+    content: " portrain table and big phones";
+}
+}
+@media(min-width:768px){ 
+    /* Tablet */
+body{
+    background-color: blue;
+}
+div::after{
+    content: " Tablet";
+}
+}
+@media(min-width:992px){
+    /*Loptop */
+body{
+    background-color:yellowgreen;
+}
+div::after{
+    content: " Loptop";
+}
+}
+@media(min-width:1200px){
+    /* Larger Screen */
+body{
+    background-color: violet;
+}
+div::after{
+    content: " Larger Screen";
+}
+}
+div{
+    text-align: center;
+    font-size: x-large;
+}

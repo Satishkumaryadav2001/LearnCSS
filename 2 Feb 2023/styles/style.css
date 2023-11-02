@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: #f9f5ed;
+    background-color:orange;
+  
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Libre+Franklin:ital,wght@1,200&family=Roboto:wght@700&family=Sofia+Sans+Extra+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+}
+nav{
+    padding:20px 10%;
+    height: 50vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 5%;
+    font-weight: 700;
+}
+nav ul li img{
+    width: 100px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftmain{
+    width: 30%;
+    margin-top:-15%;
+}
+.leftmain h1{
+    font-size: 60px;
+}
+.leftmain p{
+    margin: 10% 0;
+}
+.leftmain button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color:#3d855b;
+    border-radius: 10px;
+}
+.leftmain button:hover{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #3d855b;
+    font-weight: 600;
+    border: none;
+    background-color:white;
+    border-radius: 10px;
+}
+.rightmain{
+    width: 70%;
+    padding: 10%;
+    margin-top:-15%;
+}
+.rightmain div img{
+    width: 40%;
+
+}
+.rightmain div img:first-child{
+    margin-right: 20px;
+}
+.rightmain div{
+    margin-bottom: 20px;
+}
+.rightmain >img{
+    width: 64%;
+}

@@ -1,0 +1,31 @@
+/* Universal Selector */
+/* *{
+    margin: 0;
+    padding:0;
+} */
+/* Element Selector */
+/* h1{
+    color: blue;
+}
+p{
+  
+    color: red;
+} */
+/* Class Selector */
+/* .para{
+    color:blue;
+}
+.hello{
+    font-size: 60px;
+    color: magenta;
+    text-align: center;
+} */
+/* Id Selector */
+#id1{
+    color: whitesmoke;
+    background-color: black;
+}
+/* Selector List */
+.class1,.class,.classN{
+
+}

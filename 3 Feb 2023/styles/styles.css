@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Red Rose", cursive;
+    border: #f9f5ed;
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Libre+Franklin:ital,wght@1,200&family=Roboto:wght@700&family=Sofia+Sans+Extra+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+}
+.body
+{
+    height:700px;;
+    width:100%;
+    background-image:url("./assets/1.png");
+    background-size: cover;
+}
+nav ul{
+display: flex;
+align-items: center;
+gap:15%;
+
+}
+
+main h1{
+    
+    text-align: center;
+    font-size: 45px;
+}
+.main button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}

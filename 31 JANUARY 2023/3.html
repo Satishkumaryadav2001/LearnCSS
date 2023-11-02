@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album With Grid</title>
+    <style>
+        .container{
+            display: grid;
+            height: 1000px;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,250px);
+        }
+        .box{
+            /* height: 100px;
+            width: 100px; */
+        }
+        .box1{
+            background-color: red;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .box2{
+            background-color: lawngreen;
+        }
+        .box3{
+            background-color: lightgreen;
+        }
+        .box4{
+            background-color:yellow;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .box5{
+            background-color: magenta;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .box6{
+            background-color: maroon;
+            grid-row-start:3 ;
+            grid-row-end:6;
+        }
+        .box7{
+            background-color: orangered;
+        }
+        .box8{
+            background-color: blue;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+        .box9{
+            background-color: palevioletred;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Grid Album -->
+    <div class="container">
+        <div class="box box1"> <iframe src="https://www.youtube.com/embed/XQ3fEfTwUpk" frameborder="0" width="900px" height="400px"></iframe>1</div>
+        <div class="box box2"> <iframe src="https://www.youtube.com/embed/SOVQ7cdtJwU" frameborder="0" width="900px" height="400px"></iframe>2</div>
+        <div class="box box3"> <iframe src="https://www.youtube.com/embed/0EqMZcncZmY" frameborder="0" width="900px" height="400px"></iframe>3</div>
+        <div class="box box4"> <iframe src="https://www.youtube.com/embed/I_QwbiPiZNA" frameborder="0" width="900px" height="400px"></iframe>4</div>
+        <div class="box box5"> <iframe src="https://www.youtube.com/embed/6fKphXvCUDg" frameborder="0" width="900px" height="400px"></iframe>5</div>
+        <div class="box box6"> <iframe src="https://www.youtube.com/embed/I2nQfiux2sk" frameborder="0" width="900px" height="400px"></iframe>6</div>
+        <div class="box box7"> <iframe src="https://www.youtube.com/embed/AETFvQonfV8" frameborder="0" width="900px" height="400px"></iframe>7</div>
+        <div class="box box8"> <iframe src="https://www.youtube.com/embed/TWSCCmFQteY" frameborder="0" width="900px" height="400px"></iframe>8</div>
+        <div class="box box9"> <iframe src="https://www.youtube.com/embed/Ntb7Uw0JDto" frameborder="0" width="900px" height="400px"></iframe>9</div>
+
+    </div>
+</body>
+</html>

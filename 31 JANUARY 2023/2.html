@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album With Grid</title>
+    <style>
+        .container{
+            display: grid;
+            height: 700px;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,250px);
+        }
+        .box{
+            /* height: 100px;
+            width: 100px; */
+        }
+        .box1{
+            background-color: red;
+            overflow: hidden;
+
+            
+        }
+        .box2{
+            background-color: lawngreen;
+            overflow: hidden;
+       
+        }
+        .box3{
+            background-color: lightgreen;
+            overflow: hidden;
+        }
+        .box4{
+            background-color:yellow;
+            overflow: hidden;
+        }
+        .box5{
+            background-color: magenta;
+            overflow: hidden;
+        }
+        .box6{
+            background-color: maroon;
+            overflow: hidden;
+        }
+        .box7{
+            background-color: orangered;
+            overflow: hidden;
+        }
+        .box8{
+            background-color: blue;
+            overflow: hidden;
+        }
+        .box9{
+            background-color: palevioletred;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- Grid Album -->
+    <marquee><h1>Album With Grid</h1></marquee>
+    <div class="container">
+        <div class="box box1"><img src="https://images.pexels.com/photos/11534490/pexels-photo-11534490.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-" height="250px" width="500px">1</div>
+        <div class="box box2"><img src="https://images.pexels.com/photos/14705341/pexels-photo-14705341.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-" height="250px" width="500px">2</div>
+        <div class="box box3"><img src="https://images.pexels.com/photos/15229630/pexels-photo-15229630.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find- "height="250px" width="500px">3 </div>
+        <div class="box box4"><img src="https://images.pexels.com/photos/14694426/pexels-photo-14694426.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-"height="250px" width="500px">4</div>
+        <div class="box box5"><img src="https://images.pexels.com/photos/7240267/pexels-photo-7240267.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-"height="250px" width="500px">5</div>
+        <div class="box box6"><img src="https://images.pexels.com/photos/15172875/pexels-photo-15172875.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-"height="250px" width="500px">6</div>
+        <div class="box box7"><img src="https://images.pexels.com/photos/15190889/pexels-photo-15190889.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-"height="250px" width="500px">7</div>
+        <div class="box box8"><img src="https://images.pexels.com/photos/13315193/pexels-photo-13315193.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-"height="250px" width="500px">8</div>
+        <div class="box box9"><img src="https://images.pexels.com/photos/13782029/pexels-photo-13782029.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="imgae not find-"height="250px" width="500px">9</div>
+
+    </div>
+</body>
+</html>
